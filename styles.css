@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+.header{
+    display: flex;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    display: flex;
+    max-width: 70px;
+    margin-bottom: 20px;
+    margin-right:4px ;
+}
+
+h2 {
+    color: #0062cc;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top:2px;
+
+}
+h4{
+    padding-top: 6px; 
+    text-align: left;
+    font-size: 11px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #0062cc;
+    width: 110px;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    font-size: 13xpx;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: #0062cc;
+    
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    border-top: #333;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+    min-width: 160px;
+    padding-top: 15px; 
+    right: 0;
+}
+.dropdown-content a{
+    padding: 10px;
+    padding-left:23px ;
+    text-decoration: none;
+    color: black;
+}
+.dropdown.open .dropdown-content {
+    display: block; 
+}
+
+.noti-btn {
+    background-color: #ccc;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}

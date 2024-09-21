@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="header">
+                <img src="uitlogo.svg" alt="Logo" class="logo">
+                <div class = "header-text">
+                    <h4> ĐẠI HỌC QUỐC GIA TP.HỒ CHÍ MINH <br> TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN </h4>
+                    <h2>WEBSITE CÁC MÔN HỌC</h2>
+                </div>
+            </div>
+            <form>  
+                <input type="text" id="username" name="username" placeholder="Tên tài khoản" required>
+                <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
+                <button type="submit" class="login-btn">Đăng nhập</button>
+                <a href="" class="forgot-password">Quên mật khẩu?</a>
+            </form>
+            <div class="footer">
+                <div class="dropdown" >
+                    <a href="#" class="dropdown-toggle" onclick="toggleDropdown(event)">
+                        Vietnamese (vi)
+                        <b class="caret">&#9662;</b>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">English (en)</a>
+                        <a href="#">English (ja)</a>
+                        <a href="#">Vietnamese (vi)</a>
+                    </div>
+                </div>
+                <button class="noti-btn">Thông báo từ các Cookies</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
