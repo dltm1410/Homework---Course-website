@@ -1,207 +1,205 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system, "system-ui", sans-serif;
-    background-color: #e3e6ea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    line-height: 1.5;
-    font-weight: 400;
-
+  font-family: -apple-system, "system-ui", sans-serif;
+  background-color: #e3e6ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .login-box {
-    background-color: white;
-    padding: 3rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
-    text-align: center;
-    margin-bottom: 2rem;
-    
+  background-color: white;
+  padding: 3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
-    .login-box {
-        width: 500px !important;
-        border-radius: .25rem;
-    }
+  .login-box {
+    width: 500px !important;
+    border-radius: 0.25rem;
+  }
 }
 
-.header{
-    display: flex;
+.header {
+  display: flex;
 }
 .header > img {
-    margin-right: 2px;
-    object-fit: fill;
-    width: 5rem;
-    height: 5rem;
+  margin-right: 2px;
+  object-fit: fill;
+  width: 5rem;
+  height: 5rem;
 }
-.header-text{
-    display: flex;
-    flex-direction: column;
+.header-text {
+  display: flex;
+  flex-direction: column;
 }
 .logo {
-    display: flex;
-    max-width: 105px;
-    max-height: 65px;
-    margin-top: 8px;
-    margin-right:4px ;
+  display: flex;
+  max-width: 105px;
+  max-height: 65px;
+  margin-top: 8px;
+  margin-right: 4px;
 }
 
 h2 {
-    color: #2A86D7;
-    font-size: 22px;
-    margin-bottom: 20px;
-    text-align: left;
-
-
+  color: #2a86d7;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: left;
 }
-h4{
-    padding-top: 6px; 
-    text-align: left;
-    font-size: 0.9rem;
-    color: #4b4b4b;
+h4 {
+  padding-top: 6px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #4b4b4b;
 }
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    text-align: left;
-    margin-bottom: 8px;
-    color: #333;
+  text-align: left;
+  margin-bottom: 8px;
+  color: #333;
 }
 
-input[type="text"], input[type="password"] {
-    padding: 8px 16px;
-    margin-bottom: 14px;
-    height:45px;
-    border: 1px solid #ccc;
-    border-color: #8c8c8c;
-    border-radius: 4px;
-    width: 100%;
-    font-size: 17.5px;
+input[type="text"],
+input[type="password"] {
+  padding: 8px 16px;
+  margin-bottom: 14px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-color: #8c8c8c;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 17.5px;
 }
 
 .login-btn {
-    background-color: #0f6cbf;
-    width: 121.38px;
-    height: 44.65px;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    font-size: 18px;
+  background-color: #0f6cbf;
+  width: 121.38px;
+  height: 44.65px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
 }
 
 .login-btn:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .forgot-password {
-    margin-top: 15px;
-    font-size: 15px;
-    text-align: left;
-    display: block;
-    text-decoration: none;
-    color: #0f6cbf;
-    
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+  color: #0f6cbf;
 }
 
 .forgot-password:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer {
-    border-top: #333;
-    margin-top: 20px;
-    display: flex;
-    /* justify-content: left; */
-    align-items: center;
+  border-top: #333;
+  margin-top: 20px;
+  display: flex;
+  /* justify-content: left; */
+  align-items: center;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
 }
 .dropdown > a {
-    color: #0f6cbf !important;
-    text-decoration: none;
-
-
+  color: #0f6cbf !important;
+  text-decoration: none;
 }
 .dropdown-content {
-    display: none; /* Ẩn mặc định */
-    text-align: left;
-    margin: 2px 0px 0px;
-    padding: 8px 0px;
-    position: absolute;
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, .15);
-    color: #1D2125;
-    z-index: 1;
-    min-width: 160px;
-    right: 0;
-    border-radius: 5px;
+  display: none; /* Ẩn mặc định */
+  text-align: left;
+  margin: 2px 0px 0px;
+  padding: 8px 0px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: #1d2125;
+  z-index: 1;
+  min-width: 160px;
+  right: 0;
+  border-radius: 5px;
 }
 
 .dropdown-content a {
-    line-height: 1.5;
-    font-size: 14.9017px ;
-    color: #1D2125;
-    display: block;
-    text-decoration: none;
-    padding: 4px 24px;
-    margin: 8px 0;
+  line-height: 1.5;
+  font-size: 14.9017px;
+  color: #1d2125;
+  display: block;
+  text-decoration: none;
+  padding: 4px 24px;
+  margin: 8px 0;
 }
 
-
 .dropdown.open .dropdown-content {
-    display: block; 
+  display: block;
 }
 
 .noti-btn {
-    background-color: #CED4DA; 
-    padding: 12px 12px; 
-    border: none; 
-    border-radius: .25rem;
-    font-size: 14.95px; 
-    cursor: pointer;
-    border-color: transparent; 
-    color: #1D2125; 
+  background-color: #ced4da;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 14.95px;
+  cursor: pointer;
+  border-color: transparent;
+  color: #1d2125;
 }
 
-
 .noti-btn:hover {
-    background-color: #c2c9d6;
+  background-color: #c2c9d6;
 }
 
 .vertical-divider {
-    height: 30px;
-    width: 1px;   
-    background-color: #dee2e6; 
-    margin: 0 16px; 
+  height: 30px;
+  width: 1px;
+  background-color: #dee2e6;
+  margin: 0 16px;
 }
 
 hr {
-    border: none;             
-    border-top: 1px solid #ccc;  
-    width: 100%;               
-    margin: 24px 0;            
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin: 24px 0;
+}
+
+#arrow {
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
 }
